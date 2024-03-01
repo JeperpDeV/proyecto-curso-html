@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>The Legend of Zelda: The Wind Waker</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(70, 204, 119), rgb(63, 141, 82));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #36b568;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #1c8b5d;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            font-weight: bolder;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: bolder;
+            color: #fff;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .titular {
+            display: grid;
+            place-items: center;
+        }
+        .image {
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            width: 150px;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            display: flex;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .footer {
+            background-color: #1b603c;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Legend of Zelda: The Wind Waker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="personajes.html">Personajes</a></li>
+                <li><a href="audiovisuales.html">AudioVisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="article">
+        <div class="container">
+            <table>
+                <colgroup>
+                <col style="background-color: #CCC;">
+                <col>
+                <col>
+                <col>
+                <col>
+                </colgroup>
+                <th>Imagen</th>
+                <th>Nombre</th>
+
+                <tr>
+                    <td><img src="assets/img/link_pixel.png" width="30px" alt="Link Pixel"></td>
+                    <td>Link</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/zelda_pixel.jpeg" width="30px" alt="Zelda Pixel"></td>
+                    <td>Zelda</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/cuco_pixel.png" width="30px" alt="Cuco Pixel"></td>
+                    <td>Cuco</td>
+                </tr>
+            </table>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
